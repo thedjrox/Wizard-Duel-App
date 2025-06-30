@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "790816330506",
+    "firebase_url": "https://wizardduel-68442-default-rtdb.firebaseio.com",
+    "project_id": "wizardduel-68442",
+    "storage_bucket": "wizardduel-68442.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790816330506:android:4a12898e276c033df760f3",
+        "android_client_info": {
+          "package_name": "cs477.gmu.project3_djoseph6_njoseph7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmsj6qg2RArVoNN2oBI6M_QXe-01kqtlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- Gradient background -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/rules_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Wizard Duel Rules"
+            android:textColor="#FFD700"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/glazzy_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/galaxy"
+            android:scaleType="centerInside" />
+
+
+        <TextView
+            android:id="@+id/rules_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Welcome to Wizard Duel!\n\n1. Shake your phone to cast spells:\n   - Forward-back shake: Attack (3s cooldown, 20 damage)\n   - Sideways shake: Shield (4s cooldown, blocks next attack)\n   - Up-down shake: Heal (5s cooldown, +20 health)\n\n2. 1-second global cooldown between spell casts.\n\n3. Reduce your opponent's health to 0 to win, or have more health after 90 seconds.\n\n4. Wait for another player to join after starting the game.\n\n"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/sparkle"
+                android:scaleType="centerInside"
+                android:layout_marginEnd="8dp" />
+
+
+            <TextView
+                android:id="@+id/ready_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARE YOU READY TO DUEL?"
+                android:textColor="#FFD700"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center" />
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/sparkle"
+                android:scaleType="centerInside"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/waiting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Waiting for Player 2 to join..."
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:text="Start Game"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
